@@ -40,6 +40,12 @@ const MainNavbar = ({ user, handleLogout }) => {
           <Link to='/AboutMe'>
             <Navbar.Brand>About Me</Navbar.Brand>
           </Link>
+          <Link to='/Skills'>
+            <Navbar.Brand>Skills</Navbar.Brand>
+          </Link>
+          <Link to='/ContactMe'>
+            <Navbar.Brand>Contact Me</Navbar.Brand>
+          </Link>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             { rightNavItems() }
