@@ -13,6 +13,7 @@ import Skills from './components/skills/Skills';
 import React, { Component } from 'react';
 
 
+
 const App = () => (
   <>
     <MainNavbar />
