@@ -26,11 +26,13 @@ const ContactForm = ({ addContact, id, name, email, body, subject, updateContact
   return(
     <>
       <h1>{id ? "Update" : "Create"} Contact</h1>
+      
       <Form onSubmit={handleSubmit}>
 
         <Form.Label htmlFor="inputname">Name</Form.Label>
         <Form.Control
           name='name'
+          placeholder="Name"
           value={contact.name}
           onChange={(e) => setContact({...contact, name: e.target.value })}
           required
@@ -55,6 +57,7 @@ const ContactForm = ({ addContact, id, name, email, body, subject, updateContact
         <Form.Label htmlFor="inputsubject">Subject</Form.Label>
         <Form.Control
           name='subject'
+          placeholder="Subject"
           value={contact.subject}
           onChange={(e) => setContact({...contact, subject: e.target.value })}
           required
@@ -66,6 +69,7 @@ const ContactForm = ({ addContact, id, name, email, body, subject, updateContact
           <Form.Control 
           as="textarea" rows={3}
           name='body'
+          placeholder="Information"
           value={contact.body}
           onChange={(e) => setContact({...contact, body: e.target.value })}
           required />

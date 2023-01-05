@@ -10,12 +10,12 @@ const MainNavbar = ({ user, handleLogout }) => {
       return (
         <>
           <Link to='/contacts'>
-            <Button variant="link">Contacts</Button>
+            <MainBtn2 variant="link">Contacts</MainBtn2>
           </Link>
           <MainBtn2 
-            onClick={() => handleLogout()} 
+            onClick={() => handleLogout()}
           >
-            Logout
+            Logouts
           </MainBtn2>
         </>
       )
