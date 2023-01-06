@@ -15,7 +15,7 @@ const Skills = () => (
           <br />
           <br />
           <br />
-          <p>
+          <div>
             <h4>Tech Support | RizePoint | April 2022 - Present</h4>
             Received tickets for high level support to assist users in the application developed by RizePoint.<br /><br />
             <h4>Cashier | Smith's Food & Drug | October 2020 - April 2022<br /></h4>
@@ -27,7 +27,9 @@ const Skills = () => (
             Worked with a diverse team to create and deliver cabinets, operated large vehicles to transport cabinets, operated forklifts often.<br /><br />
             <h4>Cashier | Walmart | October 28, 2015 - September 30, 2017 <br /></h4>
             Provided excellent customer service while completing assignments, duties, and working with my time efficiently. Arrived early and don't leave until all work is completed 
-          </p>
+          </div>
+          <br />
+          <br />
         </HomeHeaderTxt>
       </HomeHeader>
     </div>

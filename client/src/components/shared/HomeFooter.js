@@ -5,7 +5,7 @@ const HomeFooter = () => (
   <>
     <WebFooter>
       <h3>
-        <Link to='https://isitchristmas.com/'>Is it Christmas?</Link>
+        <a href="https://isitchristmas.com/" target='_blank'>Is it Christmas?</a>
       </h3>
     </WebFooter>
   </>

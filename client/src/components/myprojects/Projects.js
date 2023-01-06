@@ -6,11 +6,11 @@ const Projects = () => (
     <HomeHeader>
       <HomeHeaderTxt>
         <h4>My very first Website (HTML & CSS)</h4>
-        <Link to='https://github.com/DaylanM/First_website'>GitHub</Link>
+        <a href='https://github.com/DaylanM/First_website' target='_blank'>GitHub</a>
         <br />
         <br />
         <h4>React on Rails To-Do-List</h4>
-        <Link to='https://github.com/DaylanM/ror_todo'>GitHub</Link>
+        <a href='https://github.com/DaylanM/ror_todo' target='_blank'>GitHub</a>
       </HomeHeaderTxt>
     </HomeHeader>
   </>
