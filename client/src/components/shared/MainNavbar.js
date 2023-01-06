@@ -43,6 +43,9 @@ const MainNavbar = ({ user, handleLogout }) => {
           <Link to='/Skills'>
             <Navbar.Brand>Skills</Navbar.Brand>
           </Link>
+          <Link to='/projects'>
+            <Navbar.Brand>Projects</Navbar.Brand>
+          </Link>
           <Link to='/ContactMe'>
             <Navbar.Brand>Contact Me</Navbar.Brand>
           </Link>

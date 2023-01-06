@@ -11,6 +11,8 @@ import FetchUser from './components/auth/FetchUser';
 import ContactList from './components/contacts/ContactList';
 import Skills from './components/skills/Skills';
 import React, { Component } from 'react';
+import Projects from './components/myprojects/Projects';
+import HomeFooter from './components/shared/HomeFooter';
 
 
 
@@ -25,6 +27,7 @@ const App = () => (
           <Route path='/AboutMe' element={<AboutMe />} />
           <Route path='/ContactMe' element={<ContactForm />} />
           <Route path='/Skills' element={<Skills />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='/' element={<ProtectedRoute />}>
             <Route path='/contacts' element={<Contacts />} />
           </Route>
@@ -32,6 +35,7 @@ const App = () => (
         </Routes>
       </>
     </FetchUser>
+    <HomeFooter />
   </>
 )
 
